@@ -6,7 +6,7 @@
     "node": "15.x"
   },
   "private": true,
-  "homepage": ".",
+  "homepage": "https://ip-trace-docs.herokuapp.com/",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "npm-run-all --parallel start-impl watch",
