@@ -1,11 +1,11 @@
 module.exports = {
   title: 'Trace IP Docs',
   tagline: 'Documentacion Api Rest de IP Trace Challange Backend',
-  url: 'https://ip-trace.herokuapp.com/',
+  url: 'https://ip-trace-docs.herokuapp.com/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'zetti', // Usually your GitHub org/user name.
+  organizationName: 'ml', // Usually your GitHub org/user name.
   projectName: 'iptrace-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
