@@ -10,19 +10,6 @@ components:
           example: 5.6.7.8
     TraceIpResponse:
       type: object
-      required:
-        - shortestDistance;
-        - longestDistance;
-        - averageDistance;
-      properties:
-        shortestDistance:
-          type: string
-        longestDistance:
-          type: string
-        averageDistance:
-          type: string
-    StatsResponse:
-      type: object
       properties:
         ip:
           type: string
@@ -47,6 +34,19 @@ components:
             type: string
           }
         estimatedDistanceBetweenCountry:
+          type: string
+    StatsResponse:
+      type: object
+      required:
+        - shortestDistance;
+        - longestDistance;
+        - averageDistance;
+      properties:
+        shortestDistance:
+          type: string
+        longestDistance:
+          type: string
+        averageDistance:
           type: string
     Language:
       type: object
