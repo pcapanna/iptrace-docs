@@ -6,6 +6,7 @@
     "node": "15.x"
   },
   "private": true,
+  "homepage": ".",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "npm-run-all --parallel start-impl watch",
