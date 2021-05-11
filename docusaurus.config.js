@@ -2,7 +2,7 @@ module.exports = {
   title: 'Trace IP Docs',
   tagline: 'Documentacion Api Rest de IP Trace Challange Backend',
   url: 'https://ip-trace.herokuapp.com/',
-  baseUrl: '/docs/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'zetti', // Usually your GitHub org/user name.
