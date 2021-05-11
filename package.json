@@ -1,0 +1,42 @@
+{
+  "name": "iptrace-docs",
+  "version": "0.1.0",
+  "description": "IP Trace Api Documentation",
+  "private": true,
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "npm-run-all --parallel start-impl watch",
+    "start-impl": "docusaurus start ",
+    "build": "openapi-comment-parser open-api-src openapi.json & docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "serve": "docusaurus serve",
+    "watch": "nodemon -e js,yaml --exec \"openapi-comment-parser open-api-src openapi.json\""
+  },
+  "dependencies": {
+    "@docusaurus/core": "2.0.0-alpha.64",
+    "@docusaurus/preset-classic": "2.0.0-alpha.64",
+    "@mdx-js/react": "^1.5.8",
+    "clsx": "^1.1.1",
+    "docusaurus-plugin-openapi": "0.0.16",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.2",
+    "nodemon": "^2.0.4",
+    "openapi-comment-parser": "^1.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

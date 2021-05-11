@@ -1,0 +1,64 @@
+components:
+  schemas:
+    TraceIpRequest:
+      type: object
+      required:
+        - ip
+      properties:
+        ip:
+          type: string
+          example: 5.6.7.8
+    TraceIpResponse:
+      type: object
+      required:
+        - shortestDistance;
+        - longestDistance;
+        - averageDistance;
+      properties:
+        shortestDistance:
+          type: string
+        longestDistance:
+          type: string
+        averageDistance:
+          type: string
+    StatsResponse:
+      type: object
+      properties:
+        ip:
+          type: string
+          example: 5.6.7.8
+        countryName:
+          type: string
+        countryCode:
+          type: string
+        countryLanguages:
+          type: array
+          items: {
+            "$ref": "#/components/schemas/Language"
+          }
+        countryCurrencies:
+          type: array
+          items: {
+            type: string
+          }
+        countryCurrentTimes:
+          type: array
+          items: {
+            type: string
+          }
+        estimatedDistanceBetweenCountry:
+          type: string
+    Language:
+      type: object
+      properties:
+        code:
+          type: string
+        name:
+          type: string
+    Currency:
+      type: object
+      properties:
+        code:
+          type: string
+        name:
+          type: string
