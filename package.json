@@ -2,6 +2,9 @@
   "name": "iptrace-docs",
   "version": "0.1.0",
   "description": "IP Trace Api Documentation",
+  "engines": {
+    "node": "15.x"
+  },
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
