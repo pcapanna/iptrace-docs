@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://ip-trace-docs.herokuapp.com/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.svg',
   organizationName: 'ml', // Usually your GitHub org/user name.
   projectName: 'iptrace-docs', // Usually your repo name.
   themeConfig: {
@@ -12,7 +12,7 @@ module.exports = {
       title: 'IP Trace',
       logo: {
         alt: 'IPTrace Logo',
-        src: 'https://http2.mlstatic.com/frontend-assets/ui-navigation/5.14.4/mercadopago/favicon.svg',
+        src: 'img/logo.svg',
       },
       items: [
         {
