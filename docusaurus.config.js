@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Trace IP Docs',
+  title: 'IP Trace Docs',
   tagline: 'Documentacion Api Rest de IP Trace Challange Backend',
   url: 'https://ip-trace-docs.herokuapp.com/',
   baseUrl: '/',
@@ -12,7 +12,7 @@ module.exports = {
       title: 'IP Trace',
       logo: {
         alt: 'IPTrace Logo',
-        src: 'img/logo.svg',
+        src: 'https://http2.mlstatic.com/frontend-assets/ui-navigation/5.14.4/mercadopago/favicon.svg',
       },
       items: [
         {
@@ -26,7 +26,20 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [
-      ],
+        {
+          // Label of the section of these links
+          title: 'Code Repositories',
+          items: [
+            {
+              label: 'Api Rest',
+              href: 'https://github.com/pcapanna/ml-iptrace',
+            },
+            {
+              label: 'Documentation',
+              href: 'https://github.com/pcapanna/iptrace-docs',
+            }
+          ],
+        }],
       copyright: `Copyright © ${new Date().getFullYear()} Patricio Capanna.`,
     },
   },
