@@ -1,6 +1,6 @@
 module.exports = {
   title: 'IP Trace Docs',
-  tagline: 'Documentacion Api Rest de IP Trace Challange Backend',
+  tagline: 'Documentation for IP Trace [Backend Challenge] Api Rest services',
   url: 'https://ip-trace-docs.herokuapp.com/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
