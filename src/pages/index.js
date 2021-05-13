@@ -60,7 +60,7 @@ function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Documentacion Oficial para homologacion con Servicios Web de FTCHEQ">
+      description="Documentation for IP Trace [Backend Challenge] Api Rest services">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
